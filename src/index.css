@@ -1,0 +1,19 @@
+
+html, body, :global(#root) {
+  height: 100%;
+  background-color: #F2F2F2;
+}
+
+:global(.ant-layout-header) {
+  height: 30px !important;
+  line-height: 30px !important;
+  padding: 0 0 !important;
+}
+
+:global(.ant-layout-content) {
+  background-color: #F2F2F2;
+}
+
+:global(.ant-select-selection) {
+  border-radius: 0px !important;
+}
